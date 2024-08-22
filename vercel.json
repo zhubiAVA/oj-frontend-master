@@ -1,8 +1,8 @@
 {
-    "routes": [
+    "rewrites": [
       {
-        "src": "/api/(.*)",
-        "dest": "http://47.113.179.43:8101/api/$1"
+        "source": "/api/(.*)", 
+        "destination": "/api/proxy"
       }
     ]
   }
