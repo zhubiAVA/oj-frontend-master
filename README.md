@@ -3,7 +3,7 @@
 ## 根据后台生成代码
 
 ```shell
-openapi --input https://aliyun.xw612.cn:8121/api/v2/api-docs --output ./generated --client axios
+openapi --input http://aliyun.xw612.cn:8121/api/v2/api-docs --output ./generated --client axios
 ```
 
 
