@@ -1,6 +1,3 @@
-/* generated using openapi-typescript-codegen -- do no edit */
-/* istanbul ignore file */
-/* tslint:disable */
 /* eslint-disable */
 import type { ApiRequestOptions } from './ApiRequestOptions';
 
@@ -20,7 +17,8 @@ export type OpenAPIConfig = {
 };
 
 export const OpenAPI: OpenAPIConfig = {
-    BASE: 'https://aliyun.xw612.cn:8101',
+    BASE: 'https://aliyun.xw612.cn:8101', //阿里云服务器
+    // BASE: 'http://localhost:8101', //本地
     VERSION: '1.0',
     WITH_CREDENTIALS: true,
     CREDENTIALS: 'include',
