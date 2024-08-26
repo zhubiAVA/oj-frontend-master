@@ -82,6 +82,9 @@ export const routes: Array<RouteRecordRaw> = [
     path: "/",
     name: "主页",
     component: QuestionsView,
+    meta: {
+      access: ACCESS_ENUM.USER,
+    },
   },
   // {
   //   path: "/hide",

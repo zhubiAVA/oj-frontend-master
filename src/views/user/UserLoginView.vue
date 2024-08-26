@@ -37,8 +37,8 @@ import { useStore } from "vuex";
  * 表单信息
  */
 const form = reactive({
-  userAccount: "",
-  userPassword: "",
+  userAccount: "xiangwan",
+  userPassword: "123456789",
 } as UserLoginRequest);
 
 const router = useRouter();
